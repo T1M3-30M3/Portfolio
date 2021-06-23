@@ -1,0 +1,118 @@
+<html>
+<head>
+<style type="text/css">
+
+*{
+font-family:sans-serif;
+list-style:none;
+padding:0;
+}
+
+body{
+background:#333;
+}
+
+.skills{
+width:500px;
+margin:60px auto;
+color:white;
+}
+
+.skills li{
+margin: 20px 0;
+}
+
+.bar{
+background:#353b48;
+display:block;
+height:2px;
+border:1px solid rgba(0,0,0,0.3);
+border-radius:3px;
+overflow:hidden;
+box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+height:2px;
+float:left;
+background:#2187e7;
+}
+
+.html{
+width:90%;
+animation: html 2s;
+
+}
+.css{
+width:65%;
+animation: css 2s;
+}
+
+.java{
+width:10%;
+animation: java 2s;
+}
+.python{
+width:30%;
+animation: python 2s;
+}
+
+@keyframes html{
+0%{
+width:0%
+}
+100%{
+width:90%
+}
+}
+
+@keyframes css{
+0%{
+width:0%
+}
+100%{
+width:65%
+}
+}
+
+@keyframes java{
+0%{
+width:0%
+}
+100%{
+width:10%
+}
+}
+
+@keyframes python{
+0%{
+width:0%
+}
+100%{
+width:30%
+}
+}
+</style>
+</head>
+<body>
+<div class="skills">
+<h1>My Skills</h1>
+<li>
+<h3>HTML5</h3><span class="bar"><span class="html"</span></span>
+</li>
+
+<li>
+<h3>CSS</h3><span class="bar"><span class="css"</span></span>
+</li>
+
+<li>
+<h3>JAVA</h3><span class="bar"><span class="java"</span></span>
+</li>
+
+<li>
+<h3>PYTHON</h3><span class="bar"><span class="python"</span></span>
+</li>
+</div>
+
+</body>
+</html>
